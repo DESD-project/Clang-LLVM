@@ -1,0 +1,8 @@
+Commands for  ARM Architecture
+1. make ARCH=arm CROSS_COMPILE=arm_linux_llvm- LLVM=1 HOSTCC=clang CC=clang versatile_defconfig
+2. make ARCH=arm CROSS_COMPILE=arm_linux_llvm- LLVM=1 HOSTCC=clang CC=clang menuconfig
+3. make ARCH=arm CROSS_COMPILE=arm_linux_llvm- LLVM=1 HOSTCC=clang CC=clang -j($nproc)
+
+
+follow the report for menuconfig and defconfig files
+Experimented on Linux-6. 1.44
