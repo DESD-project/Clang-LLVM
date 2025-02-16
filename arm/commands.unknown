@@ -1,0 +1,2 @@
+ qemu-system-arm -M versatilepb -m 256 -kernel linux-6.1.44/arch/arm/boot/zImage -drive file=buildroot-2024.02.10/output/images/rootfs.ext2,if=scsi,format=raw -append "console=ttyAMA0 root=/dev/sda " -dtb 1/linux-6.1.44/arch/arm/boot/dts/versatile-pb.dtb -serial stdio -net nic,model=rtl8139 -net user
+
